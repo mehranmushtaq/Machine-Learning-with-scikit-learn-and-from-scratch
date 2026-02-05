@@ -51,7 +51,7 @@ pip install numpy pandas matplotlib seaborn scikit-learn
 ---
 ## 📈 Actual vs Predicted Values
 
-![Actual vs Predicted](Actual vs Predicted (House Price Model).png)
+![Actual vs Predicted](actual_vs_predicted.png)
 The scatter plot shows that predicted house prices closely follow actual values,
 indicating strong model performance and a high R² score.
 
