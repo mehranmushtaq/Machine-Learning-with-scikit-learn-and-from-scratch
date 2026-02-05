@@ -16,6 +16,21 @@ It demonstrates the complete ML workflow including data preprocessing, model tra
   - Other numerical attributes
 
 ---
+## ✅ Prerequisites
+
+Before running this project, make sure you have the following:
+
+- Basic knowledge of **Python**
+- Understanding of **Machine Learning fundamentals**
+- Familiarity with **Linear Regression**
+- Installed **Python 3.x**
+- Jupyter Notebook or any Python IDE
+
+### Required Python Libraries
+Install the required libraries using:
+
+pip install numpy pandas matplotlib seaborn scikit-learn
+
 
 ## 🛠️ Technologies Used
 - Python
@@ -36,7 +51,7 @@ It demonstrates the complete ML workflow including data preprocessing, model tra
 ---
 ## 📈 Actual vs Predicted Values
 
-![Actual vs Predicted](actual_vs_predicted.png)
+![Actual vs Predicted](Actual vs Predicted (House Price Model).png)
 The scatter plot shows that predicted house prices closely follow actual values,
 indicating strong model performance and a high R² score.
 
@@ -47,12 +62,6 @@ indicating strong model performance and a high R² score.
 - **Evaluation Metrics:**
   - R² Score ≈ **0.98**
   - Adjusted R² ≈ **0.98**
-
----
-
-## 📈 Model Evaluation
-- Plotted **Actual vs Predicted values**
-- The points lie close to the diagonal line, showing strong model performance and good generalization
 
 ---
 
