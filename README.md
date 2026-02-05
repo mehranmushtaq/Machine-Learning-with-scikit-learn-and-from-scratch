@@ -38,13 +38,13 @@ This repository demonstrates the complete machine learning pipeline:
 
 Implemented for regression problems such as house price prediction.
 
-Concepts covered:
+## Concepts covered:
 	•	Simple and multiple linear regression
 	•	Model training using Scikit-Learn
 	•	Predictions
 	•	Residual analysis
 
-Evaluation metrics:
+## Evaluation metrics:
 	•	Mean Absolute Error (MAE)
 	•	Mean Squared Error (MSE)
 	•	R² Score
@@ -55,13 +55,13 @@ Evaluation metrics:
 
 Implemented for classification problems.
 
-Concepts covered:
+## Concepts covered:
 	•	Sigmoid function
 	•	Decision boundary
 	•	Binary classification
 	•	Probability prediction
 
-Evaluation metrics:
+## Evaluation metrics:
 	•	Accuracy
 	•	Confusion Matrix
 	•	Precision
@@ -74,7 +74,7 @@ Evaluation metrics:
 
 Used to improve model reliability and prevent overfitting.
 
-Techniques used:
+## Techniques used:
 	•	K-Fold Cross Validation
 	•	Cross-validation scoring
 
@@ -94,7 +94,7 @@ Techniques used:
 ## Learning Objective
 
 This repository is part of my machine learning learning journey.
-The focus is on:
+## The focus is on:
 	•	Understanding ML algorithms from scratch conceptually
 	•	Implementing models using Scikit-Learn
 	•	Practicing real datasets
@@ -104,7 +104,7 @@ The focus is on:
 
 ## Future Additions
 
-I will continue expanding this repository with:
+## I will continue expanding this repository with:
 	•	K-Nearest Neighbors (KNN)
 	•	Naive Bayes
 	•	Decision Trees
