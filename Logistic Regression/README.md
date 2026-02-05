@@ -9,7 +9,9 @@ The project uses the Social Network Ads dataset containing user demographic info
 
 ## Input features:
 Age
+
 Estimated Salary
+
 Gender
 
 ## Target variable:
@@ -55,17 +57,28 @@ Estimated Salary vs Purchase decision comparison by gender
 These plots help illustrate how user demographics relate to purchasing behavior.
 
 ## Technologies Used
+
 Python
+
 Pandas
+
 NumPy
+
 Matplotlib
+
 Seaborn
+
 Scikit-learn
 
 ## Learning Outcome
+
 Through this project, the following concepts were practiced:
+
 Logistic Regression for classification
+
 Feature scaling importance
+
 Model evaluation metrics (precision, recall, F1-score)
+
 Hyperparameter tuning with cross-validation
 Exploratory data visualization
