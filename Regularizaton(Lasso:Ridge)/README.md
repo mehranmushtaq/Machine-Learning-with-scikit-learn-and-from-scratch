@@ -25,7 +25,7 @@ The project implements a structured, production-ready pipeline:
 2. Feature Engineering: Creating interaction terms (e.g., bmi_smoker) to capture non-linear relationships.
 3. Data Splitting: 70/30 Train-Test split for robust evaluation.
 4. Pipeline Integration: * Standardization: Using StandardScaler to normalize features.
-• Modeling: Seamlessly connecting scaling to the regression estimator to prevent data leakage.
+         • Modeling: Seamlessly connecting scaling to the regression estimator to prevent data leakage.
 5. Hyperparameter Tuning: Using GridSearchCV to find the optimal \bm{\alpha} (regularization strength).
 6. Evaluation: Comparing models using {R^2}, MSE, and RMSE.
  
