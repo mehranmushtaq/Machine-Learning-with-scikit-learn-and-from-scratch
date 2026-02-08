@@ -146,6 +146,7 @@ Predicted vs actual value visualizations are used to evaluate model performance.
 ## Cross Validation and Pipelines
 
 This repository uses:
+
 	•	K-Fold Cross Validation
 	•	Scikit-Learn Pipelines
 	•	GridSearchCV for hyperparameter tuning
