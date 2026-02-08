@@ -8,6 +8,7 @@ The goal of this project is to practice the complete machine learning workflow i
 The project uses the Social Network Ads dataset containing user demographic information and purchase decisions.
 
 ## Input features:
+
 Age
 
 Estimated Salary
@@ -17,68 +18,65 @@ Gender
 ## Target variable:
 Purchased (0 = No, 1 = Yes)
 
-## Project Steps
+## Data Visualization
 
-The following steps were performed in this project:
+Exploratory visualizations are created before training the model to understand feature relationships.
 
-Data loading and exploration
+Visualizations include:
 
-Data preprocessing and feature selection
+	•	Age vs Salary scatter plots
+	•	Purchase distribution plots
+	•	Feature relationship charts
 
-Gender encoding
+These help identify patterns influencing purchase decisions.
 
-Train–test split
+## Data Preprocessing
 
-Feature scaling using StandardScaler
+Steps performed:
 
-Training a Logistic Regression model
+	•	Encoding categorical variables
+	•	Train-test split
+	•	Feature scaling using StandardScaler
 
-Model evaluation using classification metrics
+## Pipeline Implementation
 
-Hyperparameter tuning using GridSearchCV
+A Scikit-Learn Pipeline is used to combine:
 
-Data visualization using Seaborn and Matplotlib
+	•	Feature scaling
+	•	Logistic Regression model
 
-## Model Performance
+This ensures a clean and reproducible workflow while preventing data leakage.
 
-The Logistic Regression model achieved approximately:
-Accuracy: 88%
-Precision: 93%
+## Hyperparameter Tuning
 
-The confusion matrix and classification report were used to evaluate performance in detail.
+GridSearchCV is used to tune model parameters.
 
-## Visualizations
-The project includes visualizations to better understand the dataset and model behavior, such as:
+Parameters tuned include:
 
-Age vs Estimated Salary purchase distribution
+	•	Regularization strength (C)
+	•	Penalty type
+	•	Solver
 
-Estimated Salary vs Purchase decision comparison by gender
+Cross-validation improves model generalization.
 
-These plots help illustrate how user demographics relate to purchasing behavior.
+## Model Evaluation
 
-## Technologies Used
+The model is evaluated using:
 
-Python
+	•	Accuracy
+	•	Confusion Matrix
+	•	Precision
+	•	Recall
+	•	F1 Score
 
-Pandas
+Classification performance is analyzed using these metrics.
 
-NumPy
 
-Matplotlib
+## Key Learning Outcomes:
 
-Seaborn
-
-Scikit-learn
-
-## Learning Outcome
-
-Through this project, the following concepts were practiced:
-
-Logistic Regression for classification
-
-Feature scaling importance
-
-Model evaluation metrics (precision, recall, F1-score)
-
-Hyperparameter tuning with cross-validation
-Exploratory data visualization
+	•	Logistic Regression for classification
+	•	Pipeline implementation
+	•	GridSearchCV hyperparameter tuning
+	•	Feature scaling importance
+	•	Classification metrics interpretation
+	•	Visualization for classification problems
