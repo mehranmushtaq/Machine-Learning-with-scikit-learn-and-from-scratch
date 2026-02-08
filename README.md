@@ -41,9 +41,13 @@ This repository demonstrates a complete end-to-end ML pipeline:
 ## Feature Engineering
 
 Feature engineering techniques used in this repository include:
+
 	•	One-hot encoding
+	
 	•	Creating interaction terms for combined feature effects
+	
 	•	Feature selection
+	
 	•	Removing irrelevant features
 
 These steps help improve model performance and interpretability.
@@ -155,6 +159,7 @@ This repository is part of my machine learning learning journey.
 
 The focus is on:
 	•	Understanding ML algorithms conceptually
+	
 	•	Implementing models using Scikit-Learn
 	•	Practicing with real datasets
 	•	Applying feature engineering techniques
