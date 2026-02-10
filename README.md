@@ -1,4 +1,4 @@
-## Machine Learning with Scikit-Learn
+## Machine Learning
 
 This repository contains implementations of fundamental machine learning algorithms using Python and Scikit-Learn, along with data preprocessing, feature engineering, visualization, pipelines, cross-validation, regularization, and model evaluation.
 
