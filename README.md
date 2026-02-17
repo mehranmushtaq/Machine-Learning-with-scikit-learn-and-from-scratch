@@ -173,7 +173,7 @@ The focus is on:
 	•	Building portfolio-ready ML projects
 
 ## Future Additions
-	•	K-Nearest Neighbors (KNN)
+
 	•	Naive Bayes
 	•	Decision Trees
 	•	Ensemble methods
