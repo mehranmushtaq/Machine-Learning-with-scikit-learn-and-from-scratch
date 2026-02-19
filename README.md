@@ -139,7 +139,7 @@ Evaluation metrics:
 
 Predicted vs actual value visualizations are used to evaluate model performance.
 
-K-Nearest Neighbors (KNN)
+## K-Nearest Neighbors (KNN)
 
 Dataset used: Iris Dataset
 
