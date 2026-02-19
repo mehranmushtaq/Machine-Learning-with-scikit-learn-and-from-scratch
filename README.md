@@ -139,6 +139,26 @@ Evaluation metrics:
 
 Predicted vs actual value visualizations are used to evaluate model performance.
 
+K-Nearest Neighbors (KNN)
+
+Dataset used: Iris Dataset
+
+This section demonstrates a classification workflow using the KNN algorithm with Scikit-learn pipelines.
+
+Concepts covered:
+
+	•	Feature scaling using StandardScaler
+	•	KNeighborsClassifier
+	•	Pipeline creation
+	•	Hyperparameter tuning with GridSearchCV
+	•	Model evaluation
+
+Evaluation metrics:
+
+	•	Accuracy
+	•	Precision
+	•	Recall
+	•	Confusion Matrix
 
 ## Cross Validation and Pipelines
 
