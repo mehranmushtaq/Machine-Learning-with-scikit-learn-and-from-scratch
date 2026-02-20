@@ -23,7 +23,7 @@ Machine-Learning-with-scikit-learn/
 │   └── README.md
 │
 ├── KNN/
-│   ├── knn_iris_classification.ipynb
+│   ├── knn.ipynb
 │   └── README.md
 │
 ├── Regularization (Lasso, Ridge)/
