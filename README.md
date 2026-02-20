@@ -11,12 +11,27 @@ Machine-Learning-with-scikit-learn/
 ├── Datasets/
 │   ├── insurance.csv
 │   ├── Social_Network_Ads.csv
-│   └── house_price_practice.csv
+│   ├── house_price_practice.csv
+│   └── Iris.csv
 │
 ├── Linear Regression/
+│   ├── linear_regression.ipynb
+│   └── README.md
+│
 ├── Logistic Regression/
+│   ├── logistic_regression.ipynb
+│   └── README.md
+│
+├── KNN/
+│   ├── knn_iris_classification.ipynb
+│   └── README.md
+│
 ├── Regularization (Lasso, Ridge)/
+│   ├── lasso_ridge.ipynb
+│   └── README.md
+│
 └── README.md
+
 ```
 ## Machine Learning Workflow Implemented
 
