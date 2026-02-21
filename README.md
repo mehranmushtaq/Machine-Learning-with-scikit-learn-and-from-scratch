@@ -209,7 +209,6 @@ The focus is on:
 
 ## Future Additions
 
-	•	Naive Bayes
 	•	Decision Trees
 	•	Ensemble methods
 	•	Model deployment
