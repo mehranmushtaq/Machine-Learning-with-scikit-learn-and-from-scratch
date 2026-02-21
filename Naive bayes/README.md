@@ -22,13 +22,16 @@ The model classifies text comments into different emotional categories.
 ## Project Workflow
 
 1️⃣ Data Loading
+
 	•	Dataset loaded using Pandas
 
 2️⃣ Exploratory Data Analysis (EDA)
+
 	•	Checked class distribution
 	•	Visualized emotion frequency
 
 3️⃣ Text Preprocessing
+
 	•	Used TfidfVectorizer inside a Pipeline
 	•	Converted text into numerical feature vectors
 
@@ -40,6 +43,35 @@ Used:
 Implemented using:
 
 Pipeline([
+
     ('tfidf', TfidfVectorizer()),
     ('nb', MultinomialNB())
+	
 ])
+
+## Hyperparameter Tuning
+
+Used GridSearchCV with 5-Fold Cross Validation
+
+Tuned Parameters:
+
+	•	tfidf__ngram_range
+	•	tfidf__max_df
+	•	nb__alpha
+
+
+
+## Model Evaluation
+
+	•	Cross Validation Score: ~0.89
+	•	Test Accuracy: ~90%
+	•	Confusion Matrix
+	•	GridSearch CV Score Plot
+
+
+
+## Visualizations
+	•	Emotion Distribution Plot
+	•	GridSearch CV Score Plot
+	•	Confusion Matrix
+
