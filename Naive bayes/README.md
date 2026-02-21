@@ -72,9 +72,8 @@ Tuned Parameters:
 
 ## Visualizations
 
-	•	Emotion Distribution Plot
-    ![Emotion Distribution Plot](image1.png)
-	
-	•	GridSearch CV Score Plot
-	•	Confusion Matrix
+
+## 📈 Emotion Distribution
+
+![Distribution](image1.png)
 
