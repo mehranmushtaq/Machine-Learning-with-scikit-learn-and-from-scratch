@@ -77,3 +77,6 @@ Tuned Parameters:
 
 ![Distribution](image1.png)
 
+## GridSearch CV Score Plot
+
+![CV Score](image2.png)
