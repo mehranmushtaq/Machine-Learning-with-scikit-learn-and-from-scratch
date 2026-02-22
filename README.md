@@ -1,4 +1,4 @@
-## Machine Learning
+in## Machine Learning
 
 This repository contains implementations of fundamental machine learning algorithms using Python and Scikit-Learn, along with data preprocessing, feature engineering, visualization, pipelines, cross-validation, regularization, and model evaluation.
 
@@ -195,7 +195,7 @@ Pipelines are used to combine preprocessing and modeling steps into a single wor
 
 ## Learning Objective
 
-This repository is part of my machine learning learning journey.
+This repository is part of my machine learning journey.
 
 The focus is on:
 
