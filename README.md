@@ -7,30 +7,29 @@ The goal of this repository is to build a strong practical foundation in machine
 ## Repository Structure
 ```
 Machine-Learning-with-scikit-learn/
-│
 ├── Datasets/
 │   ├── insurance.csv
 │   ├── Social_Network_Ads.csv
 │   ├── house_price_practice.csv
-│   └── Iris.csv
-│
+│   ├── Iris.csv
+│   └── Emotion_classify_Data.csv      
 ├── Linear Regression/
 │   ├── linear_regression.ipynb
 │   └── README.md
-│
 ├── Logistic Regression/
 │   ├── logistic_regression.ipynb
 │   └── README.md
-│
 ├── KNN/
 │   ├── knn.ipynb
 │   └── README.md
-│
+├── Naive bayes/
+│   ├── naive_bayes.ipynb
+│   └── README.md
 ├── Regularization (Lasso, Ridge)/
 │   ├── lasso_ridge.ipynb
 │   └── README.md
-│
 └── README.md
+
 
 ```
 ## Machine Learning Workflow Implemented
