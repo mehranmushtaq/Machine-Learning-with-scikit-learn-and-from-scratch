@@ -174,6 +174,28 @@ Evaluation metrics:
 	•	Recall
 	•	Confusion Matrix
 
+## Naive Bayes
+
+Dataset used: Emotion Classification Dataset
+
+Used for classification problems such as text emotion prediction.
+
+Concepts covered:
+
+• Text preprocessing using TF-IDF
+• Feature extraction
+• Model training using Multinomial Naive Bayes
+• Hyperparameter tuning using GridSearchCV
+• 5-Fold Cross Validation
+• Confusion Matrix evaluation
+
+Evaluation metrics:
+
+• Accuracy Score
+• Cross-Validation Score
+• Confusion Matrix
+• Classification Report
+
 ## Cross Validation and Pipelines
 
 This repository uses:
