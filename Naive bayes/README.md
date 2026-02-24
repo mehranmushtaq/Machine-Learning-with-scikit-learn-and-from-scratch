@@ -80,3 +80,9 @@ Tuned Parameters:
 ## GridSearch CV Score Plot
 
 ![CV Score](image2.png)
+
+## Confusion Matrix
+
+![Confusion Matrix](image3.png)
+
+
