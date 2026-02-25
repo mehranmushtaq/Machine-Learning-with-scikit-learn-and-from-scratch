@@ -3,6 +3,7 @@
 ## Project Overview
 
 This project builds a Text Emotion Classification Model using:
+
 	•	TF-IDF Vectorization
 	•	Multinomial Naive Bayes
 	•	Scikit-learn Pipeline
