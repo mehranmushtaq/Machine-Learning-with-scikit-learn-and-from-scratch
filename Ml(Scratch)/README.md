@@ -19,8 +19,11 @@ y = wX + b
 Features:
 
 ✔ Gradient Descent optimization
+
 ✔ Bias and weights calculation
+
 ✔ Prediction function
+
 ✔ Vectorized NumPy operations
 
 
@@ -35,6 +38,9 @@ OLS Formula:
 Features:
 
 ✔ Analytical solution
+
 ✔ No iterations required
+
 ✔ Fast computation
+
 ✔ Matrix operations
