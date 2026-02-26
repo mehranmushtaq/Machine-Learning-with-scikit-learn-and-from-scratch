@@ -32,9 +32,9 @@ Features:
 OLS finds the best-fit line analytically by minimizing squared error.
 
 OLS Formula:
-
+```
 β = (XᵀX)^(-1)Xᵀy
-
+```
 Features:
 
 ✔ Analytical solution
