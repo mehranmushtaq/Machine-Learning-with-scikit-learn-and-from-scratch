@@ -14,7 +14,9 @@ Linear Regression models the relationship between input features **X** and targe
 
 Model Equation:
 
+```
 y = wX + b
+```
 
 Features:
 
@@ -32,9 +34,11 @@ Features:
 OLS finds the best-fit line analytically by minimizing squared error.
 
 OLS Formula:
+
 ```
 β = (XᵀX)^(-1)Xᵀy
 ```
+
 Features:
 
 ✔ Analytical solution
