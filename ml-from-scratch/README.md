@@ -7,7 +7,7 @@ The goal of this project is to understand the mathematics and working of ML algo
 
 ## Algorithms Implemented
 
-1️⃣ Linear Regression (Gradient Descent)
+## Linear Regression (Gradient Descent)
 
 Linear Regression models the relationship between input features **X** and target values **y**.
 
@@ -26,3 +26,23 @@ y = wX + b
 ✔ Prediction function
 
 ✔ Vectorized NumPy operations
+
+## Ordinary Least Squares (OLS)
+
+OLS finds the best-fit line analytically by minimizing squared error.
+
+OLS Formula:
+
+```
+β = (XᵀX)^(-1)Xᵀy
+```
+
+## Features:
+
+✔ Analytical solution
+
+✔ No iterations required
+
+✔ Fast computation
+
+✔ Matrix operations
