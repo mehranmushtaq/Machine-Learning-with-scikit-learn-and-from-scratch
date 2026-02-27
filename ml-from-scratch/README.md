@@ -20,6 +20,9 @@ y = wX + b
 ## Features:
 
 ✔ Gradient Descent optimization
+
 ✔ Bias and weights calculation
+
 ✔ Prediction function
+
 ✔ Vectorized NumPy operations
