@@ -13,6 +13,12 @@ File: linear_reg.ipynb
 
 Linear Regression models the relationship between input features **X** and target values **y**.
 
+## Implementation includes:
+	•	Gradient Descent Optimization
+	•	Mean Squared Error Loss
+	•	Weight and Bias Updates
+	•	Multi-feature support
+
 Model Equation:
 
 ```
