@@ -1,36 +1,45 @@
 ## Machine Learning
 
-This repository contains implementations of fundamental machine learning algorithms using Python and Scikit-Learn, along with data preprocessing, feature engineering, visualization, pipelines, cross-validation, regularization, and model evaluation.
+This repository contains implementations of fundamental **machine learning algorithms using Python and Scikit-Learn, along with data preprocessing, feature engineering, visualization, pipelines, cross-validation, regularization, and model evaluation.**
 
 The goal of this repository is to build a strong practical foundation in machine learning by working with real datasets and complete ML workflows.
 
 ## Repository Structure
 ```
-Machine-Learning-with-scikit-learn/
 ├── Datasets/
-│   ├── insurance.csv
-│   ├── Social_Network_Ads.csv
-│   ├── house_price_practice.csv
+│   ├── Emotion_classify_Data.csv
 │   ├── Iris.csv
-│   └── Emotion_classify_Data.csv      
-├── Linear Regression/
-│   ├── linear_regression.ipynb
-│   └── README.md
-├── Logistic Regression/
-│   ├── logistic_regression.ipynb
-│   └── README.md
+│   ├── Social_Network_Ads.csv
+│   ├── house_prices_practice.csv
+│   └── insurance.csv
 ├── KNN/
-│   ├── knn.ipynb
+│   ├── Knn.ipynb
+│   └── README.md
+├── Linear Regression/
+│   ├── Linear_regression.ipynb
+│   ├── README.md
+│   └── actual_vs_predicted.png
+├── Logistic Regression/
+│   ├── Logistic_Regressor.ipynb
 │   └── README.md
 ├── Naive bayes/
-│   ├── naive_bayes.ipynb
-│   └── README.md
-├── Regularization (Lasso, Ridge)/
-│   ├── lasso_ridge.ipynb
-│   └── README.md
-└── README.md
-
-
+│   ├── anaconda_projects/db/
+│   ├── README.md
+│   ├── image1.png
+│   ├── image2.png
+│   ├── image3.png
+│   └── naive_bayes.ipynb
+├── Regularizaton(Lasso:Ridge)/
+│   ├── README.md
+│   ├── image1.png
+│   ├── image2.png
+│   └── lasso_ridge.ipynb
+├── ml-from-scratch/
+│   ├── README.md
+│   ├── linear_reg.ipynb
+│   └── logistic_reg.ipynb
+├── README.md
+└── requirements.txt
 ```
 ## Machine Learning Workflow Implemented
 
