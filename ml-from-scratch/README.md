@@ -1,9 +1,8 @@
 ## Machine Learning Algorithms From Scratch
 
-This project implements core Machine Learning algorithms from scratch using NumPy, without using libraries like Scikit-learn.
+This directory contains Machine Learning algorithms implemented from scratch using NumPy only, without using high-level libraries like scikit-learn.
 
-The goal of this project is to understand the mathematics and working of ML algorithms internally.
-
+The goal of this project is to deeply understand the mathematics and inner workings of Machine Learning algorithms.
 
 ## Algorithms Implemented
 
