@@ -65,3 +65,23 @@ OLS Formula:
 	•	Exact solution
 	•	Matrix algebra
 	•	No iterations required
+
+## Logistic Regression
+
+File: logistic_reg.ipynb
+
+## Implementation includes:
+	•	Gradient Descent Optimization
+	•	Sigmoid Function
+	•	Binary Classification
+	•	Probability Prediction
+
+Sigmoid Function:
+```
+σ(z) = 1 / (1 + e^(-z))
+```
+## Key Concepts:
+	•	Classification
+	•	Decision Boundary
+	•	Probability estimation
+
