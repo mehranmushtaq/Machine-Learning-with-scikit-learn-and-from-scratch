@@ -30,7 +30,8 @@ The goal of this repository is to build a strong practical foundation in machine
 ├── ml-from-scratch/
 │   ├── README.md
 │   ├── linear_reg.ipynb
-│   └── logistic_reg.ipynb
+│   ├── logistic_reg.ipynb
+│   └── knn_regressor.ipynb  
 ├── README.md
 └── requirements.txt
 ```
