@@ -90,3 +90,20 @@ Sigmoid Function:
 	•	Decision Boundary
 	•	Probability estimation
 
+## K-Nearest Neighbors (KNN) – Regressor
+
+File: knn_regressor_scratch.ipynb
+
+This implementation builds a KNN Regressor from scratch using NumPy only, without relying on scikit-learn.
+
+Unlike parametric models (Linear Regression), KNN is a:
+	•	Non-parametric model
+	•	Instance-based learning algorithm
+	•	Lazy learner (no explicit training phase)
+
+
+How It Works
+	1.	Store training data
+	2.	Compute Euclidean distance from test point to all training points
+	3.	Select K nearest neighbors
+	4.	Return the mean of their target values
