@@ -6,10 +6,9 @@ import plotly.graph_objects as go
 import plotly.express as px
 import time
 
-# --- PAGE CONFIG ---
 st.set_page_config(page_title="Ames Housing AI", page_icon="🏠", layout="wide")
 
-# --- CUSTOM CSS ---
+
 st.markdown("""
     <style>
     .main { background-color: #0e1117; }
@@ -42,19 +41,19 @@ st.markdown("""
     </style>
     """, unsafe_allow_html=True)
 
-# --- LOAD MODEL ---
+
 @st.cache_resource
 def load_model():
     try:
-        # Tries to load your XGBoost model
+        
         return joblib.load('ames_xgb_model.pkl'), False
     except:
-        # Fallback if the file isn't found
+        
         return None, True
 
 model, is_sim = load_model()
 
-# --- SIDEBAR: INPUTS ---
+
 with st.sidebar:
     st.title("🛠️ Home Editor")
     st.write("Adjust property details:")
@@ -69,31 +68,31 @@ with st.sidebar:
     st.divider()
     predict_btn = st.button("🚀 Predict House Value", use_container_width=True)
 
-# --- MAIN UI ---
+
 st.title("🏠 Ames Housing DNA & Valuation")
 
 if predict_btn:
     with st.spinner('AI Engine Analyzing Market Trends...'):
-        time.sleep(0.8) # Smooth UX transition
+        time.sleep(0.8) 
         
-        # Prepare Data
+        
         features = pd.DataFrame({
             'OverallQual': [quality], 'GrLivArea': [living_area], 
             'TotalBsmtSF': [basement], 'GarageCars': [garage_cars], 
             'YearBuilt': [year_built], 'FullBath': [bathrooms]
         })
 
-        # Prediction Logic
+   
         if not is_sim:
             price = model.predict(features)[0]
         else:
-            # Robust Heuristic for Simulation Mode
+          
             price = (quality * 22000) + (living_area * 60) + (year_built * 250) - 480000
 
         col1, col2 = st.columns([1, 1])
 
         with col1:
-            # --- PRICE GAUGE ---
+           
             fig_gauge = go.Figure(go.Indicator(
                 mode = "gauge+number",
                 value = price,
@@ -110,10 +109,10 @@ if predict_btn:
             st.plotly_chart(fig_gauge, use_container_width=True)
 
         with col2:
-            # --- RADAR CHART (DNA) ---
+            
             st.subheader("Property Signature")
             categories = ['Quality', 'Space', 'Modernity', 'Garage', 'Baths']
-            # Normalizing data for visual radar footprint
+           
             values = [quality/10, living_area/4000, (year_built-1870)/156, garage_cars/4, bathrooms/4]
             
             fig_radar = go.Figure(data=go.Scatterpolar(
@@ -125,7 +124,7 @@ if predict_btn:
             )
             st.plotly_chart(fig_radar, use_container_width=True)
 
-        # --- SUMMARY CARDS ---
+      
         st.divider()
         c1, c2, c3, c4 = st.columns(4)
         c1.metric("Price / SqFt", f"${price/max(1, living_area):.2f}")
@@ -134,11 +133,11 @@ if predict_btn:
         c4.metric("Age of Home", f"{2026-year_built} Yrs")
 
 else:
-    # Initial State
+  
     st.info("👈 Adjust property details in the **Home Editor** and click **Predict** to see results.")
     st.image("https://images.unsplash.com/photo-1560518883-ce09059eeffa?auto=format&fit=crop&w=1200&q=80", caption="Ames Housing Market Analysis Tool")
 
-# --- FOOTER ---
+
 st.markdown(f"""
     <div class="footer">
         Developed by <span class="name-highlight">Mehran Mushtaq</span> | 
