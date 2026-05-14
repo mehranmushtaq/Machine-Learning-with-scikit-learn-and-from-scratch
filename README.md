@@ -53,8 +53,6 @@ Every folder tells a chapter of that story: understanding *why* an algorithm wor
 |💳 CreditWise Loan Approval|Finance    |[![Live Demo](https://img.shields.io/badge/Streamlit-Live%20Demo-FF4B4B?style=flat-square&logo=streamlit&logoColor=white)](https://creditwise-loan.streamlit.app/) · [![Repo](https://img.shields.io/badge/GitHub-Repo-181717?style=flat-square&logo=github)](https://github.com/mehranmushtaq/creditwise-loan-system)|
 
 
-> 💡 **Note:** Replace the placeholder links above with your actual deployment URLs and the CreditWise repository link.
-
 -----
 
 ## Projects At a Glance
